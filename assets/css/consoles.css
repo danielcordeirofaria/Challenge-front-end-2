@@ -1,0 +1,72 @@
+section.consoles{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.consoles__cabecalhoDaSecao{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.consoles__titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.consoles__link{
+    display: flex;
+    align-items: center;
+}
+
+p.verTudo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A7AE4;
+    margin: 0.417rem;
+}
+
+.seta{
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    p.verTudo{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .consoles__cabecalhoDaSecao{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .consoles__titulo{
+        margin: 1rem 0 1rem 0rem;
+    }
+
+    .seta{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .consoles__cabecalhoDaSecao{
+        padding-left: 9.5rem;
+        padding-right: 9.5rem;
+    }
+
+
+
+}

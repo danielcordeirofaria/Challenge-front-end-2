@@ -1,0 +1,56 @@
+section.about{
+    background: #EAF2FD;
+}
+
+.about__logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.about__links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about__texto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+    text-align: center;
+    color: #464646;
+    margin-bottom: 1rem;
+}
+
+.about__h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about__camposDeEscrita{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.about__nome{
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

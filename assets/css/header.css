@@ -1,0 +1,107 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 4.5rem;
+}
+
+.header__div, .header__form, .header__pesquisa{
+    display: flex;
+    align-items: center;
+}
+
+.header__pesquisa{
+    display: none;
+}
+
+.header__logo{
+    width: 6.25rem;
+    height: 1.75rem;
+    padding-left: 1rem;
+}
+
+.header__campoDePesquisa{
+    display: none
+}
+
+.header__login{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    gap: 10px;
+    width: 8.313rem;
+    height: 40px;
+    border: 1px solid #2A7AE4;
+    order: 1;
+    flex-grow: 0;
+    color: #2A7AE4;
+    background: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1rem;
+}
+
+.header__lupa{
+    margin-right: 1.2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .header__login{
+        margin-right: 2rem;
+    }
+
+    .header__div--lupa{
+        display: none;
+    }
+
+    .header__campoDePesquisa{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 1rem;
+        margin-left: 2rem;
+    
+        width: 272px;
+        height: 40px;
+    
+        background: #F5F5F5;
+        border-radius: 20px;
+        border: none;
+    
+        flex: none;
+        order: 1;
+        flex-grow: 0;    
+    }
+
+    .header__div--lupa{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header{
+        height: 7.2rem;
+        justify-content: space-around;
+    }
+
+    .header__logo{
+        width: 11rem;
+        height: 3.125rem;
+    }
+    
+    .header__campoDePesquisa{
+        width: 24.563rem;
+    }
+
+    .header__login{
+        width: 11.375rem;
+        height: 3.188rem;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

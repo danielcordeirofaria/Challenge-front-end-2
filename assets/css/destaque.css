@@ -1,0 +1,101 @@
+section.destaque{
+    background-image: url(".././imagens/banner-image.png");
+    background-size: cover;
+    width: auto;
+    height: 12rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.destaque__dezembro{
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.destaque__titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 0 1rem .5rem 1rem;
+}
+
+.destaque__subtitulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0 1rem .5rem 1rem;
+}
+
+.destaque__button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 7.438rem;
+    height: 2.5rem;
+    background: #2A7AE4;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px){
+    section.destaque{
+        height: 22rem;
+    }
+
+    .destaque__titulo{
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 61px;
+        margin: 0 2rem 1rem 2rem;
+    }
+
+    .destaque__subtitulo{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        margin: 0 2rem 1rem 2rem;
+    }
+
+    .destaque__button{
+        margin: 0 2rem 2rem 2rem;
+
+    }
+}
+
+@media screen and (min-width: 1024px){
+    section.destaque{
+        background-size: cover;
+    }
+
+    .destaque__titulo{
+        margin: 0 0 1rem 9.5rem;
+    }
+
+    .destaque__subtitulo{
+        margin: 0 0 1rem 9.5rem;
+    }
+
+    .destaque__button{
+        margin: 0 0 2rem 9.5rem;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        width: 8.125rem;
+        height: 3.188rem;
+    }
+}
