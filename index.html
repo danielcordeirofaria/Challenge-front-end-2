@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,17 +20,16 @@
 <body>
     <header>
         <div class="header__div">
-            <img src="./assets/imagens/Logo.png" class="header__logo">
+            <a href="./todos-os-produtos.html"><img src="./assets/imagens/Logo.png" class="header__logo"></a>
             <input class="header__campoDePesquisa" placeholder="O que deseja Encontrar?">
         </div>
-        <form class="header__form">
-            <button class="header__login">Login</button>
+        <form class="header__form" action="./home-login.html">
+            <button type="submit" class="header__login">Login</button>
         </form>
         <div class="header__div header__div--lupa">
             <img src="./assets/imagens/lupa.png" class="header__lupa">
         </div>
     </header>
-    <Body>
         <section class="destaque">
             <div class="destaque__dezembro">
                 <h2 class="destaque__titulo">Dezembro Promocional</h2>
@@ -189,7 +188,7 @@
     <section class="about">
         <div class="about__logoTexto">
             <div class="about__logo">
-                <img src="./assets/imagens/logo_about.png" class="about__imagemLogo">
+                <a href="./todos-os-produtos.html"><img src="./assets/imagens/logo_about.png" class="about__imagemLogo"></a>
             </div>
             <div class="about__links">
                 <p class="about__texto">Quem somos nós</p>
@@ -215,5 +214,6 @@
         <p class="footer__texto">Desenvolvido por Daniel Faria</p>
         <p class="footer__texto">2022</p>
     </section>
-    </Body>
+    <script src="./assets/js/index.js"></script>
 </body>
+</html>

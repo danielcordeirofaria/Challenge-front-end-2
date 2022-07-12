@@ -1,0 +1,151 @@
+section.login{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 1rem;
+    justify-content: space-around;
+    background: #F5F5F5;
+    align-items: center;
+}
+
+.header__login--home-login{
+    display: none;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #464646;
+}
+
+.login__email{
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    flex-grow: 0;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0 1rem 1rem 1rem;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: #C8C8C8 1px solid;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+}
+
+.login__senha{
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    flex-grow: 0;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0 1rem 1rem 1rem;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: #C8C8C8 1px solid;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+}
+
+.login__email::placeholder {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.login__senha::placeholder {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.login__emailSenha{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+}
+
+.login__entrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 151px;
+    height: 40px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+}
+
+.login__entrar:active{
+    transform: scale(.96);
+}
+
+@media screen and (min-width: 768px) {
+    section.login{
+        padding: 2.813rem 2rem;
+        align-items: center;
+    }
+
+    .login__emailSenha{
+        width: 50%;
+    }
+
+    .login__email,
+    .login__senha{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1048px) {
+    section.login h2{
+        font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    }
+
+    .login__entrar{
+        width: 100%;
+    }
+
+    .login__email,
+    .login__senha{
+        margin: 0%;
+        margin-bottom: 1rem;
+        width: 99%;
+    }
+
+}

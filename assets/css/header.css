@@ -45,6 +45,10 @@ header{
     line-height: 1rem;
 }
 
+.header__login:active{
+    transform: scale(.96);
+}
+
 .header__lupa{
     margin-right: 1.2rem;
 }
@@ -52,6 +56,10 @@ header{
 @media screen and (min-width: 768px) {
     .header__login{
         margin-right: 2rem;
+    }
+
+    .header__logo{
+        padding-left: 2rem;
     }
 
     .header__div--lupa{

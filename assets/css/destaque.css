@@ -52,6 +52,10 @@ section.destaque{
     margin-bottom: 1rem;
 }
 
+.destaque__button:active{
+    transform: scale(.96);
+}
+
 @media screen and (min-width: 768px){
     section.destaque{
         height: 22rem;

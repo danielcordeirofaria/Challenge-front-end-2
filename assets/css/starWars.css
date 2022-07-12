@@ -36,6 +36,13 @@ p.verTudo{
     margin: 0.417rem;
 }
 
+p.verTudo:hover{
+    font-size: 18px;
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+
 .seta{
     margin-right: 1rem;
 }

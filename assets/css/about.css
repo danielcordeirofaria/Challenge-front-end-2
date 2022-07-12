@@ -27,6 +27,12 @@ section.about{
     margin-bottom: 1rem;
 }
 
+.about__texto:hover{
+    color: #2A7AE4;
+    text-decoration: underline;
+}
+
+
 .about__h2{
     font-family: 'Raleway';
     font-style: normal;
@@ -57,6 +63,14 @@ section.about{
     margin: 0 1rem 1rem 1rem;
     border: none;
     border-bottom: #C8C8C8 1px solid;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    display: flex;
+    justify-items: center;
 }
 
 .about__button{
@@ -78,14 +92,15 @@ line-height: 16px;
 border: none;
 }
 
+.about__button:active{
+    transform: scale(.96);
+}
+
 .about__div--button{
     display: flex;
     justify-content: center;
 }
 
-.about__logoTexto{
-    
-}
 
 @media screen and (min-width:768px) {
     section.about{
@@ -129,6 +144,7 @@ border: none;
 
     .about__logo{
         display: block;
+        margin-right: 2rem;
     }
 
     .about__divTextoButton{
@@ -138,7 +154,7 @@ border: none;
 
     .about__logoTexto{
         display: flex;
+        width: 50%;
+        justify-content: initial;
     }
-
-
 }
