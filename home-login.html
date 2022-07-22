@@ -22,7 +22,7 @@
 <body>
     <header>
         <div class="header__div">
-            <img src="./assets/imagens/Logo.png" class="header__logo">
+            <a href="./index.html"><img src="./assets/imagens/Logo.png" class="header__logo"></a>
             <input class="header__campoDePesquisa" placeholder="O que deseja Encontrar?">
         </div>
         <form class="header__form">
@@ -35,15 +35,15 @@
     <section class="login">
         <h2>Iniciar Sessão</h2>
         <form class="login__emailSenha">
-            <input class="login__email" type="email" placeholder="Digite seu email">
-            <input class="login__senha" type="password" placeholder="Digite sua senha">
+            <input class="login__email" type="email" placeholder="Digite seu email" required>
+            <input class="login__senha" type="password" placeholder="Digite sua senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[!@#$%&*_=+-]).{6,12}$" title="A senha deve conter de 6 a 12 caracteres, pelo menos uma letra maúscula, um número e não deve conter símbulos." required>
             <button class="login__entrar">Entrar</button>
         </form>
     </section>
     <section class="about">
         <div class="about__logoTexto">
             <div class="about__logo">
-                <a href="./todos-os-produtos.html"><img src="./assets/imagens/logo_about.png" class="about__imagemLogo"></a>
+                <a href="./index.html"><img src="./assets/imagens/logo_about.png" class="about__imagemLogo"></a>
             </div>
             <div class="about__links">
                 <p class="about__texto">Quem somos nós</p>

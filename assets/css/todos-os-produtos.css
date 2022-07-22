@@ -1,0 +1,64 @@
+.todosOsProtudos__textoMaisBotao{
+    padding: 2rem 1rem;
+}
+
+.todosOsProtudos__textoMaisBotao h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    margin-bottom: 1rem;
+}
+
+.todosOsProtudos__adicionarProdutos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 165px;
+    height: 51px;
+    background: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #FFFFFF;}
+
+@media screen and (min-width: 768px) {
+    .todosOsProtudos__textoMaisBotao{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2.5rem 2rem 1rem 2rem;
+        align-items: center;
+    }
+
+    .todosOsProtudos__textoMaisBotao h2{
+        margin-bottom: 0%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .todosOsProtudos__textoMaisBotao{
+        padding: 4rem 9.5rem 1rem 9.5rem;
+    }
+
+    .todosOsProtudos__adicionarProdutos{
+        width: 10.25rem;
+        height: 3.25rem;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 0;
+    }
+
+    .todosOsProtudos__textoMaisBotao h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+}

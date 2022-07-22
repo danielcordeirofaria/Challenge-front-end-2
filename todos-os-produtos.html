@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/diversos.css">
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/todos-os-produtos.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">  
     <title>AluraGeek - Todos os Protudos</title>
@@ -20,10 +21,10 @@
 <body>
     <header>
         <div class="header__div">
-            <img src="./assets/imagens/Logo.png" class="header__logo">
+            <a href="./index.html"><img src="./assets/imagens/Logo.png" class="header__logo"></a>
             <input class="header__campoDePesquisa" placeholder="O que deseja Encontrar?">
         </div>
-        <form class="header__form">
+        <form class="header__form" action="./home-login.html">
             <button class="header__login">Login</button>
         </form>
         <div class="header__div header__div--lupa">
@@ -31,6 +32,12 @@
         </div>
     </header>
     <section class="todosOsProtudos">
+        <div class="todosOsProtudos__textoMaisBotao">
+            <h2>Todos os Produtos</h2>
+            <a href="./adicionar-novo-produto.html">
+                <button class="todosOsProtudos__adicionarProdutos">Adicionar Produtos</button>
+            </a>
+        </div>
         <div class="boxs__Produtos">
             <div class="boxProdutos">
                 <img class="box__imagem" src="./assets/imagens/starWars_1.png">
@@ -145,7 +152,7 @@
     <section class="about">
         <div class="about__logoTexto">
             <div class="about__logo">
-                <a href="./todos-os-produtos.html"><img src="./assets/imagens/logo_about.png" class="about__imagemLogo"></a>
+                <a href="./index.html"><img src="./assets/imagens/logo_about.png" class="about__imagemLogo"></a>
             </div>
             <div class="about__links">
                 <p class="about__texto">Quem somos nós</p>

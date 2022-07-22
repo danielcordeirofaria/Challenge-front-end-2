@@ -93,12 +93,15 @@ header{
 @media screen and (min-width: 1024px) {
     header{
         height: 7.2rem;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding-left: 9.5rem;
+        padding-right: 9.5rem;
     }
 
     .header__logo{
         width: 11rem;
         height: 3.125rem;
+        padding-left: 0;
     }
     
     .header__campoDePesquisa{
@@ -111,5 +114,6 @@ header{
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
+        margin-right: 0;
     }
 }
