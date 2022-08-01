@@ -34,7 +34,7 @@
             <div class="destaque__dezembro">
                 <h2 class="destaque__titulo">Dezembro Promocional</h2>
                 <h3 class="destaque__subtitulo">Produtos selecionados com 33% de desconto</h3>
-                <button class="destaque__button">Ver Consoles</button>
+                <a href="#consoles"><button class="destaque__button">Ver Consoles</button></a>
             </div>
         </section>
         <section class="starWars">
@@ -86,7 +86,7 @@
                 </div>
             </div>
         </section>
-        <section class="consoles">
+        <section class="consoles" id="consoles">
             <div class="consoles__cabecalhoDaSecao">
                 <div class="consoles__divTitulo">
                     <h2 class="consoles__titulo">Consoles</h2>
@@ -202,8 +202,13 @@
         <div class="about__divTextoButton">
             <div class="about__camposDeEscrita">
                 <h2 class="about__h2">Fale Conosco</h2>
-                <input type="text" class="about__nome" placeholder="Nome">
-                <textarea type="text" class="about__mensagem" placeholder="Escreva sua mensagem"></textarea>
+                <div class="about__nomeDiv">
+                    <input type="text" class="about__nome" placeholder="Nome" maxlength="40" required>
+                    <!--<span class="about__nomeDiv--erro">Este campo não está preenchido</span>-->
+                </div>
+                <div class="about__mensagemDiv">
+                    <textarea type="text" class="about__mensagem" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                </div>
             </div>
             <div class="about__div--button">
                 <button class="about__button">Enviar mensagem</button>
@@ -215,5 +220,7 @@
         <p class="footer__texto">2022</p>
     </section>
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/validacao.js"></script>
+    
 </body>
 </html>

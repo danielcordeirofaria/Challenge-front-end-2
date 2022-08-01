@@ -54,7 +54,22 @@
 }
 
 .box__imagem{
-    width: 9.75rem;        
+    width: 9.75rem;    
+}
+
+.box__imagens{
+    display: flex;
+    justify-content: end;
+}
+
+.box__deletaEEdita{
+    position: absolute;
+    display: flex;
+    margin: .5rem;
+}
+
+.box__lixeira{
+    margin-right: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {

@@ -57,12 +57,12 @@
         <div class="about__divTextoButton">
             <div class="about__camposDeEscrita">
                 <h2 class="about__h2">Fale Conosco</h2>
-                <input type="text" class="about__nome" placeholder="Nome">
-                <textarea type="text" class="about__mensagem" placeholder="Escreva sua mensagem"></textarea>
-            </div>
-            <div class="about__div--button">
-                <button class="about__button">Enviar mensagem</button>
-            </div>
+                <div class="about__nomeDiv about__nomeDiv--invalido">
+                    <input type="text" class="about__nome" placeholder="Nome" maxlength="40" required>
+                </div>
+                <div class="about__mensagemDiv about__mensagemDiv--invalido">
+                    <textarea type="text" class="about__mensagem" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                </div>
         </div>
     </section>
     <section class="footer">
