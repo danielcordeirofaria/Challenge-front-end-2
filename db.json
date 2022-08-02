@@ -1,0 +1,14 @@
+{
+  "produto": [
+    {
+      "name": "Alura",
+      "imageUrl": "./Challenge-front-end-2/assets/imagens/starWars_1.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    }
+
+  ]
+}
