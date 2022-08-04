@@ -35,13 +35,12 @@
     <section class="adicionarNovoProduto">
         <div class="adicionarNovoProduto__div">
             <h2 class="adicionarNovoProduto__titulo">Adicionar novo produto</h2>
-            <form action="" class="adicionarNovoProduto__dadosNovosProtudos">
-                <input type="url" placeholder="URL da imagem">
-                <input type="text" placeholder="Categoria">
-                <input type="text" placeholder="Nome do produto">
-                <input type="money" placeholder="Preço do produto">
-                <input type="text" placeholder="Descrição do produto">
-                <button class="adicionarNovoProduto__button">Adicionar produto</button>
+            <form class="adicionarNovoProduto__dadosNovosProtudos" data-form>
+                <input type="text" placeholder="URL da imagem" required data-url>
+                <input type="text" placeholder="Nome do produto" required data-nome>
+                <input type="text" placeholder="Preço do produto" required data-preco>
+                <!--<input type="text" placeholder="Descrição do produto" required data-descricao>-->
+                <button type="submit" class="adicionarNovoProduto__button">Adicionar produto</button>
             </form>
         </div>
     </section>
@@ -74,4 +73,7 @@
         <p class="footer__texto">Desenvolvido por Daniel Faria</p>
         <p class="footer__texto">2022</p>
     </section>
+    <script src="controller/cria-produtos-controller.js" type="module"></script>
+
 </body>
+</html>

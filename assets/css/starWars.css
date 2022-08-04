@@ -21,9 +21,19 @@ section.starWars{
     margin: 1rem 0 1rem 1rem;
 }
 
+.starWars__titulo div{
+    margin: 1rem 0 1rem 0rem;
+}
+
 .starWars__link{
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.starWars__link div{
+    display: block ruby;
 }
 
 p.verTudo{

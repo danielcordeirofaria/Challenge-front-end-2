@@ -2,13 +2,183 @@
   "produto": [
     {
       "name": "Alura",
-      "imageUrl": "./Challenge-front-end-2/assets/imagens/starWars_1.png",
+      "imageUrl": "./assets/imagens/starWars_1.png",
       "price": "100.00",
       "id": 1,
       "alt": "Product",
       "section": "Star Wars",
       "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/starWars_2.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/starWars_3.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/starWars_4.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/starWars_5.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/starWars_6.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/consoles_1.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/consoles_2.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/consoles_3.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/consoles_4.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/consoles_5.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/consoles_6.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/diversos_1.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/diversos_2.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/diversos_3.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/diversos_4.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/diversos_5.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "Alura",
+      "imageUrl": "./assets/imagens/diversos_6.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
     }
-
   ]
 }
