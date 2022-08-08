@@ -1,0 +1,5 @@
+.erroEmail, .erroSenha, .erroAbout__nome, .erroAbout__mensagem, .erroUrl {
+    color: red;
+    margin-bottom: 1rem;
+}
+

@@ -1,6 +1,5 @@
 import { produtoServices } from "../servicos/produtos-servicos.js";
 
-
 const novoProduto = (name, price, imageUrl) => {
     const card = document.createElement("div");
     card.classList.add("boxProdutos__div")

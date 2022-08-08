@@ -43,6 +43,7 @@ color: #464646;
     font-size: 16px;
     line-height: 20px;
     color: #464646;
+    border-color: #2A7AE4;
 }
 
 .login__senha{
@@ -65,6 +66,11 @@ color: #464646;
     font-size: 16px;
     line-height: 20px;
     color: #464646;
+    border-color: #2A7AE4;
+}
+
+.login__email:focus {
+    border-color: #2A7AE4;
 }
 
 .login__email::placeholder {

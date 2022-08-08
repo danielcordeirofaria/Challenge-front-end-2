@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/todos-os-produtos.css">
+    <link rel="stylesheet" href="./assets/css/mensagemDeErro.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">  
     <title>AluraGeek - Todos os Protudos</title>
@@ -272,16 +273,27 @@
         <div class="about__divTextoButton">
             <div class="about__camposDeEscrita">
                 <h2 class="about__h2">Fale Conosco</h2>
-                <div class="about__nomeDiv about__nomeDiv--invalido">
+                <div class="about__nomeDiv">
                     <input type="text" class="about__nome" placeholder="Nome" maxlength="40" required>
+                    <div class="erroAbout__nome">
+
+                    </div>
                 </div>
                 <div class="about__mensagemDiv about__mensagemDiv--invalido">
-                    <textarea type="text" class="about__mensagem" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                    <textarea type="text" class="about__mensagem" maxlength="120" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                    <div class="erroAbout__mensagem">
+
+                    </div>
                 </div>
+            </div>
+            <div class="about__div--button">
+                <button class="about__button">Enviar mensagem</button>
+            </div>
         </div>
     </section>
     <section class="footer">
         <p class="footer__texto">Desenvolvido por Daniel Faria</p>
         <p class="footer__texto">2022</p>
     </section>
+    <script src="./assets/js/validacaoCamposMensagem.js"></script>
 </body>

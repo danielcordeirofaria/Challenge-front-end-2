@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/headerHome-login.css">
     <link rel="stylesheet" href="./assets/css/adicionar-novo-produto.css">
+    <link rel="stylesheet" href="./assets/css/mensagemDeErro.css">
+
 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">  
     <title>AluraGeek - Login</title>
@@ -36,11 +38,15 @@
         <div class="adicionarNovoProduto__div">
             <h2 class="adicionarNovoProduto__titulo">Adicionar novo produto</h2>
             <form class="adicionarNovoProduto__dadosNovosProtudos" data-form>
-                <input type="text" placeholder="URL da imagem" required data-url>
-                <input type="text" placeholder="Nome do produto" required data-nome>
-                <input type="text" placeholder="Preço do produto" required data-preco>
-                <!--<input type="text" placeholder="Descrição do produto" required data-descricao>-->
-                <button type="submit" class="adicionarNovoProduto__button">Adicionar produto</button>
+                <!---<input type='file' class="adicionarNovoProduto__dadosNovosProtudosUrl" accept='image/*' id='file-input' capture required/>-->
+                <input class="adicionarNovoProduto__dadosNovosProtudosUrl" type="text" placeholder="URL da imagem"  required data-url>
+                <div class="divParaErroUrl">
+
+                </div>
+                <input class="adicionarNovoProduto__dadosNovosProtudosNome" type="text" placeholder="Nome do produto" maxlength="20" required data-nome>
+                <input class="adicionarNovoProduto__dadosNovosProtudosPreco" type="number" step="0.01" name="quantity" min="0.01" placeholder="Preço do produto" required data-preco>
+                <input class="adicionarNovoProduto__dadosNovosProtudosDescricao" type="text" placeholder="Descrição do produto" maxlength="150" required data-descricao>
+                <button type="submit" class="adicionarNovoProduto__button" >Adicionar produto</button>
             </form>
         </div>
     </section>
@@ -61,12 +67,22 @@
         <div class="about__divTextoButton">
             <div class="about__camposDeEscrita">
                 <h2 class="about__h2">Fale Conosco</h2>
-                <div class="about__nomeDiv about__nomeDiv--invalido">
+                <div class="about__nomeDiv">
                     <input type="text" class="about__nome" placeholder="Nome" maxlength="40" required>
+                    <div class="erroAbout__nome">
+
+                    </div>
                 </div>
                 <div class="about__mensagemDiv about__mensagemDiv--invalido">
-                    <textarea type="text" class="about__mensagem" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                    <textarea type="text" class="about__mensagem" maxlength="120" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                    <div class="erroAbout__mensagem">
+
+                    </div>
                 </div>
+            </div>
+            <div class="about__div--button">
+                <button class="about__button">Enviar mensagem</button>
+            </div>
         </div>
     </section>
     <section class="footer">
@@ -74,6 +90,8 @@
         <p class="footer__texto">2022</p>
     </section>
     <script src="controller/cria-produtos-controller.js" type="module"></script>
+    <script src="./assets/js/validacaoCamposMensagem.js"></script>
+    <script src="./assets/js/validacaoAddNovoProduto.js"></script>
 
 </body>
 </html>

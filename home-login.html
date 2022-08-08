@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/headerHome-login.css">
+    <link rel="stylesheet" href="./assets/css/mensagemDeErro.css">
+
 
 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">  
@@ -36,7 +38,15 @@
         <h2>Iniciar Sessão</h2>
         <form class="login__emailSenha">
             <input class="login__email" type="email" placeholder="Digite seu email" required>
+            <div class="erroEmail">
+
+            </div>
+            <!--<span class="erroEmail">Digite um email válido</span>-->
             <input class="login__senha" type="password" placeholder="Digite sua senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[!@#$%&*_=+-]).{6,12}$" title="A senha deve conter de 6 a 12 caracteres, pelo menos uma letra maúscula, um número e não deve conter símbulos." required>
+            <div class="erroSenha">
+
+            </div>
+            <!--<span class="erroSenha">"A senha deve conter de 6 a 12 caracteres, pelo menos uma letra maúscula, um número e não deve conter símbulos."</span>-->
             <button class="login__entrar">Entrar</button>
         </form>
     </section>
@@ -57,11 +67,17 @@
         <div class="about__divTextoButton">
             <div class="about__camposDeEscrita">
                 <h2 class="about__h2">Fale Conosco</h2>
-                <div class="about__nomeDiv about__nomeDiv--invalido">
+                <div class="about__nomeDiv">
                     <input type="text" class="about__nome" placeholder="Nome" maxlength="40" required>
+                    <div class="erroAbout__nome">
+
+                    </div>
                 </div>
                 <div class="about__mensagemDiv about__mensagemDiv--invalido">
-                    <textarea type="text" class="about__mensagem" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                    <textarea type="text" class="about__mensagem" maxlength="120" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                    <div class="erroAbout__mensagem">
+
+                    </div>
                 </div>
         </div>
     </section>
@@ -70,4 +86,7 @@
         <p class="footer__texto">2022</p>
     </section>
 </body>
+<script src="./assets/js/validacaoPaginaLogin.js"></script>
+<script src="./assets/js/validacaoCamposMensagem.js"></script>
+
 </html>
