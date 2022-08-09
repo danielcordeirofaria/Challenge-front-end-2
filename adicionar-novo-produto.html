@@ -37,7 +37,7 @@
     <section class="adicionarNovoProduto">
         <div class="adicionarNovoProduto__div">
             <h2 class="adicionarNovoProduto__titulo">Adicionar novo produto</h2>
-            <form class="adicionarNovoProduto__dadosNovosProtudos" data-form>
+            <form class="adicionarNovoProduto__dadosNovosProtudos" id="form" data-form>
                 <!---<input type='file' class="adicionarNovoProduto__dadosNovosProtudosUrl" accept='image/*' id='file-input' capture required/>-->
                 <input class="adicionarNovoProduto__dadosNovosProtudosUrl" type="text" placeholder="URL da imagem"  required data-url>
                 <div class="divParaErroUrl">
@@ -45,7 +45,7 @@
                 </div>
                 <input class="adicionarNovoProduto__dadosNovosProtudosNome" type="text" placeholder="Nome do produto" maxlength="20" required data-nome>
                 <input class="adicionarNovoProduto__dadosNovosProtudosPreco" type="number" step="0.01" name="quantity" min="0.01" placeholder="Preço do produto" required data-preco>
-                <input class="adicionarNovoProduto__dadosNovosProtudosDescricao" type="text" placeholder="Descrição do produto" maxlength="150" required data-descricao>
+                <!--<input class="adicionarNovoProduto__dadosNovosProtudosDescricao" type="text" placeholder="Descrição do produto" maxlength="150" required data-descricao>-->
                 <button type="submit" class="adicionarNovoProduto__button" >Adicionar produto</button>
             </form>
         </div>

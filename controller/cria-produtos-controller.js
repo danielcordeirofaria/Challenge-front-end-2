@@ -1,6 +1,6 @@
 import { produtoServices } from "../servicos/produtos-servicos.js";
 
-const form = document.querySelector("[data-form]");
+const form = document.getElementById("form");
 form.addEventListener("submit", (evento) => {
 
     evento.preventDefault()
