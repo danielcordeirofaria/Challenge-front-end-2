@@ -85,6 +85,14 @@ section.adicionarNovoProduto{
     transform: scale(.96);
 }
 
+.divParaErroUrl{
+    display: flex;
+}
+
+.divParaErroProduto{
+    display: flex;
+}
+
 @media screen and (min-width: 768px) {
     section.adicionarNovoProduto{
         padding: 2rem;

@@ -5,11 +5,16 @@ form.addEventListener("submit", (evento) => {
 
     evento.preventDefault()
 
-    const nome = document.querySelector('[data-nome]').value
-    const url = document.querySelector('[data-url]').value
-    const preco = document.querySelector('[data-preco]').value
+    const name = document.querySelector(".adicionarNovoProduto__dadosNovosProtudosNome").value
+    console.log(name)
 
-    produtoServices.criaProdutos(nome, url, preco).then(resposta => {
+    const url = document.querySelector("[data-url]").value
+    console.log(url)
+
+    const price = document.querySelector("[data-preco]").value
+    console.log(price)
+    
+    produtoServices.criaProdutos(name, url, price).then(resposta => {
         window.location.pathname = "/index.html"
         console.log(resposta)
     }).catch (err =>{

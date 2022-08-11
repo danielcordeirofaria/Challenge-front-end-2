@@ -44,7 +44,13 @@
 
                 </div>
                 <input class="adicionarNovoProduto__dadosNovosProtudosNome" type="text" placeholder="Nome do produto" maxlength="20" required data-nome>
+                <div class="divParaErroProduto">
+
+                </div>
                 <input class="adicionarNovoProduto__dadosNovosProtudosPreco" type="number" step="0.01" name="quantity" min="0.01" placeholder="Preço do produto" required data-preco>
+                <div class="divParaErroPreco">
+
+                </div>
                 <!--<input class="adicionarNovoProduto__dadosNovosProtudosDescricao" type="text" placeholder="Descrição do produto" maxlength="150" required data-descricao>-->
                 <button type="submit" class="adicionarNovoProduto__button" >Adicionar produto</button>
             </form>
@@ -89,9 +95,9 @@
         <p class="footer__texto">Desenvolvido por Daniel Faria</p>
         <p class="footer__texto">2022</p>
     </section>
-    <script src="controller/cria-produtos-controller.js" type="module"></script>
-    <script src="./assets/js/validacaoCamposMensagem.js"></script>
-    <script src="./assets/js/validacaoAddNovoProduto.js"></script>
+    <script src="controller/cria-produtos-controller.js"  type="module"></script>
+    <script src="./assets/js/validacaoCamposMensagem.js" type="module"></script>
+    <script src="./assets/js/validacaoAddNovoProduto.js" type="module" ></script>
 
 </body>
 </html>

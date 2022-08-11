@@ -5,15 +5,15 @@ const listaProdutos = () => fetch ( "http://localhost:3000/produto" ).then(respo
 //POST
 
 const criaProdutos = (name, imageUrl, price) => {
-    return fetch ( "http://localhost:3000/produto" , {
+    return fetch ( `http://localhost:3000/produto`, {
         method: "POST",
         headers: {
-            "Content-Type" : "aplication/json"
+            "Content-Type" : "application/json"
         },
         body: JSON.stringify({
             name, 
             imageUrl, 
-            price
+            price,
         })
     })
     .then(resposta => {

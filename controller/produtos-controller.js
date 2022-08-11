@@ -5,7 +5,7 @@ const novoProduto = (name, price, imageUrl) => {
     card.classList.add("boxProdutos__div")
     const conteudo = `
         <div class="boxProdutos">
-            <img class="box__imagem" src="${imageUrl}">
+            <img class="box__imagem" src="${imageUrl}" alt="img">
             <h3 class="boxProdutos__nome">${name}</h3>
             <h4 class="boxProdutos__preco">${price}</h4>
             <a href="#" class="boxProdutos__verProduto">Ver Produto</a5>
