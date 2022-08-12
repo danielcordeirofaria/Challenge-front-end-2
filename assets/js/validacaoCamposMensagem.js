@@ -30,7 +30,7 @@ botaoEnviarMensagem.addEventListener("click", (evento) => {
         `
         erroAboutNome.innerHTML = conteudoNome
 
-        var conteudoMensagem = `<span class="erroAbout__mensagem">"Digite uma mensagem"</span>
+        var conteudoMensagem = `<span class="erroAbout__mensagem">Digite uma mensagem</span>
         `
         erroAboutMensagem.innerHTML = conteudoMensagem
 

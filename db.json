@@ -161,6 +161,12 @@
       "alt": "Product",
       "section": "Star Wars",
       "description": "voluptas voluptatum quibusdam similique class debitis alias maecenas ..."
+    },
+    {
+      "name": "teste",
+      "imageUrl": "./assets/imagens/diversos_4.png",
+      "price": "100",
+      "id": 19
     }
   ]
 }
