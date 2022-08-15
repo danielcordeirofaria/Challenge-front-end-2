@@ -29,6 +29,16 @@
     line-height: 16px;    
     color: #FFFFFF;}
 
+    .todosOsProtudos__adicionarProdutos{
+        width: 10.25rem;
+        height: 3.25rem;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 0;
+        border: none;
+    }
+
 @media screen and (min-width: 768px) {
     .todosOsProtudos__textoMaisBotao{
         display: flex;
@@ -46,15 +56,6 @@
 @media screen and (min-width: 1024px) {
     .todosOsProtudos__textoMaisBotao{
         padding: 4rem 9.5rem 1rem 9.5rem;
-    }
-
-    .todosOsProtudos__adicionarProdutos{
-        width: 10.25rem;
-        height: 3.25rem;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        padding: 0;
     }
 
     .todosOsProtudos__textoMaisBotao h2{

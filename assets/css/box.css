@@ -82,11 +82,20 @@
 .box__deletaEEdita{
     position: absolute;
     display: flex;
-    margin: .5rem;
+    margin-left: 7rem;
+    margin-bottom: 13rem;
 }
 
 .box__lixeira{
     margin-right: 1.5rem;
+}
+
+.box__lixeira:hover{
+    scale: 1.4;
+}
+
+.box__editar:hover{
+    scale: 1.4;
 }
 
 @media screen and (min-width: 768px) {
